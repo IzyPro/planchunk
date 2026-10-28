@@ -1,0 +1,8 @@
+---
+description: Plan work in small chunks with planchunk
+alwaysApply: false
+---
+
+When the user asks to explore, create, convert, sync, continue, verify, archive, split or check the status of a plan,
+read and follow the matching file in `~/.planchunk/skills/pc-*/SKILL.md`.
+Plan format: `~/.planchunk/core/FORMAT.md`. Work on one chunk per session.
