@@ -1,9 +1,9 @@
 ---
-name: expatiate
-description: Explain a point, question, or decision in depth so the user can decide. Covers what it means, the implications, the options with pros and cons, and a recommendation. Use when the user asks to expand, explain, or clarify something you raised (an open question, a risk, a blocked item), or runs /expatiate.
+name: pc-expatiate
+description: Explain a point, question, or decision in depth so the user can decide. Covers what it means, the implications, the options with pros and cons, and a recommendation. Use when the user asks to expand, explain, or clarify something you raised (an open question, a risk, a blocked item), or runs /pc-expatiate.
 ---
 
-# expatiate
+# pc-expatiate
 
 Turn a short flag into something the user can decide on. Write in plain, short sentences (ASD-STE100). Avoid jargon. If a term is needed, explain it once.
 
