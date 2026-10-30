@@ -39,7 +39,8 @@ link "$REPO" "$HOME_DIR/.planchunk"
 
 for target in "${TARGETS[@]:-}"; do
   [ -n "$target" ] || continue
-  for skill in "$REPO"/skills/pc-*; do
+  for skill in "$REPO"/skills/*/; do
+    skill="${skill%/}"
     link "$skill" "$target/$(basename "$skill")"
   done
 done

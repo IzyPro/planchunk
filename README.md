@@ -17,6 +17,7 @@ The skills are plain Markdown. They work in any repo and with any agent that can
 | `pc-archive` | Close a finished plan and keep lasting decisions |
 | `pc-status` | See progress across plans and what to run next |
 | `pc-split` | Split a chunk that is too big |
+| `expatiate` | Explain a point, risk or open question in depth, with options and a recommendation, so you can decide |
 
 Flow: `explore` > `create` (or `convert`) > each session: `next` > work > `verify` > `sync` > `archive`. Use `status` any time. Use `split` when a chunk is too big.
 
