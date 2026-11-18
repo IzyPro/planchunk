@@ -17,9 +17,10 @@ The skills are plain Markdown. They work in any repo and with any agent that can
 | `pc-archive` | Close a finished plan and keep lasting decisions |
 | `pc-status` | See progress across plans and what to run next |
 | `pc-split` | Split a chunk that is too big |
-| `pc-expatiate` | Explain a point, risk or open question in depth, with options and a recommendation, so you can decide |
+| `pc-expatiate` | Explain a point, risk or open question in depth, with an example scenario, options and a recommendation, so you can decide |
+| `pc-orchestrate` | Run a whole plan: one agent per chunk, in order or in parallel, with check-ins, verification and a decision log (manual, auto or sleep mode) |
 
-Flow: `explore` > `create` (or `convert`) > each session: `next` > work > `verify` > `sync` > `archive`. Use `status` any time. Use `split` when a chunk is too big.
+Flow: `explore` > `create` (or `convert`) > each session: `next` > work > `verify` > `sync` > `archive`. Use `status` any time. Use `split` when a chunk is too big. Use `orchestrate` to run all chunks without starting each session by hand.
 
 ## Install
 
