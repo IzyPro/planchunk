@@ -5,4 +5,4 @@ alwaysApply: false
 
 When the user asks to explore, create, convert, sync, continue, verify, archive, split, check the status of, or fully orchestrate a plan,
 read and follow the matching file in `~/.planchunk/skills/pc-*/SKILL.md`.
-Plan format: `~/.planchunk/core/FORMAT.md`. Work on one chunk per session.
+Plan format: `~/.planchunk/core/FORMAT.md`. Token efficiency mode is on by default: `~/.planchunk/core/EFFICIENCY.md`. Work on one chunk per session.

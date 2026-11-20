@@ -1,6 +1,6 @@
 ---
 name: pc-sync
-description: Update the plan files so they match the real state of the work. Use at the end of a session (or during it) to tick steps, set chunk status, write handoff notes, and log changes. Edits only plan files.
+description: Update plan files to match the real state of the work: tick steps, set chunk status, write handoff notes, log changes. Use at the end of a session. Edits only plan files.
 ---
 
 # pc-sync
@@ -11,7 +11,7 @@ Shared files: `~/.planchunk/core/RULES.md`, `~/.planchunk/core/FORMAT.md`.
 
 ## Steps
 
-1. Read `RULES.md` and the repo's AGENTS.md and CLAUDE.md.
+1. Read `RULES.md`.
 2. Find the active plan and chunk (the one in progress, or the one the user names). Read `PLAN.md` and that chunk.
 3. Compare the chunk with the real work. Use what you did in this session and the repo state (changed files, check results). Do not guess.
 4. Update the chunk file:

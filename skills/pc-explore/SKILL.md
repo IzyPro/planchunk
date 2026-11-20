@@ -1,6 +1,6 @@
 ---
 name: pc-explore
-description: Think through an idea or problem before a plan exists. Reads the code, compares options, asks questions, and helps shape the goal. Use before pc-create when the task is unclear or large.
+description: Think through an idea or problem before a plan exists: read the code, compare options, ask questions, shape the goal. Use before pc-create when the task is unclear or large.
 ---
 
 # pc-explore
@@ -11,7 +11,7 @@ Shared files: `~/.planchunk/core/RULES.md`, `~/.planchunk/core/FORMAT.md`.
 
 ## Steps
 
-1. Read `RULES.md` and the repo's AGENTS.md and CLAUDE.md. Read `plans/KNOWLEDGE.md` and `plans/README.md` if they exist.
+1. Read `RULES.md`. Read `plans/KNOWLEDGE.md` and `plans/README.md` if they exist.
 2. Ask what the user wants to reach. Read the code that relates to it.
 3. Explain what exists today in plain words.
 4. Give options with trade-offs. Give one recommendation and the reason.
