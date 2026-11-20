@@ -1,7 +1,7 @@
 # <Plan title>
 
 ## Goal
-<One short paragraph.>
+<One short paragraph. What we build and why.>
 
 ## Non-goals
 - 

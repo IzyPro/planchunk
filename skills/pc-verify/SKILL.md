@@ -1,6 +1,6 @@
 ---
 name: pc-verify
-description: Check that finished chunk work meets the chunk's goal and acceptance checks, and run the repo's tests, linters, and build. Use after doing a chunk, before pc-sync.
+description: Check finished chunk work against the chunk's goal and acceptance checks, and run the repo's tests, linters, and build. Use after a chunk, before pc-sync.
 ---
 
 # pc-verify
@@ -11,7 +11,7 @@ Shared files: `~/.planchunk/core/RULES.md`, `~/.planchunk/core/FORMAT.md`.
 
 ## Steps
 
-1. Read `RULES.md` and the repo's AGENTS.md and CLAUDE.md.
+1. Read `RULES.md`.
 2. Read the chunk file (and `PLAN.md` goal only).
 3. Read the changes made for this chunk (the diff or the changed files).
 4. Compare with the chunk:

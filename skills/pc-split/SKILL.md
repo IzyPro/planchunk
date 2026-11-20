@@ -1,6 +1,6 @@
 ---
 name: pc-split
-description: Split a chunk that is too big into two or more smaller chunks and renumber the plan. Use when a chunk will not fit in one session, or when a session is running out of room.
+description: Split a chunk that is too big into smaller chunks and renumber the plan. Use when a chunk will not fit in one session or a session is running out of room.
 ---
 
 # pc-split
@@ -11,7 +11,7 @@ Shared files: `~/.planchunk/core/RULES.md`, `~/.planchunk/core/FORMAT.md`, `~/.p
 
 ## Steps
 
-1. Read `RULES.md` and the repo's AGENTS.md and CLAUDE.md.
+1. Read `RULES.md`.
 2. Read `PLAN.md` and the chunk to split (the one the user names, else the `in-progress` chunk).
 3. Find the split points. Each new chunk must:
    - Have 5 to 10 steps at most and one clear result.

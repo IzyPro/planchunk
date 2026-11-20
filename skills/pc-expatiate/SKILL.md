@@ -1,11 +1,13 @@
 ---
 name: pc-expatiate
-description: Explain a point, question, or decision in depth so the user can decide. Covers what it means, an example scenario, the implications, the options with pros and cons, and a recommendation. Use when the user asks to expand, explain, or clarify something you raised (an open question, a risk, a blocked item), or runs /pc-expatiate.
+description: Explain a point, question, or decision in depth so the user can decide: meaning, example, implications, options, recommendation. Use when the user asks to expand, explain, or clarify something you raised, or runs /pc-expatiate.
 ---
 
 # pc-expatiate
 
 Turn a short flag into something the user can decide on. Write in plain, short sentences (ASD-STE100). Avoid jargon. If a term is needed, explain it once.
+
+Token efficiency mode is on (see `~/.planchunk/core/EFFICIENCY.md`), but it is relaxed here. The user asks for clarity, so use the full length this skill needs. Keep reading light: search first, read only what the point depends on. Tell the user in one short line.
 
 ## Steps
 

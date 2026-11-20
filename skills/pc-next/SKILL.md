@@ -1,6 +1,6 @@
 ---
 name: pc-next
-description: Start a work session on the next chunk of a plan. Loads only the plan summary and one chunk, so the session stays small. Use at the start of a fresh session when a planchunk plan exists.
+description: Start a work session on the next chunk of a plan, loading only the plan summary and one chunk. Use at the start of a fresh session when a planchunk plan exists.
 ---
 
 # pc-next
@@ -11,7 +11,7 @@ Shared files: `~/.planchunk/core/RULES.md`, `~/.planchunk/core/FORMAT.md`.
 
 ## Steps
 
-1. Read `RULES.md`. Read the repo's AGENTS.md and CLAUDE.md.
+1. Read `RULES.md`.
 2. Find the plan: `plans/<slug>/PLAN.md`. If there are many, use the one the user names, or list them and ask.
 3. Read `PLAN.md`. Do not read other chunks yet.
 4. Pick the chunk: the one the user names, else the first `todo` chunk whose dependencies are `done`. Do not pick an `in-progress` chunk unless the user names it: another session may own it. If none can start, say why (blocked, or all done), and list any `in-progress` chunks.
